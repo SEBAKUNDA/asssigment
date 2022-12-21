@@ -8,18 +8,20 @@
 	scroll-behavior: smooth;
 }
 :root{
-	--bg-color: #2a2a2a;
-	--second-bg-color: #202020;
+	--bg-color: #090707;
+	--second-bg-color: #090808;
 	--text-color: #fff;
 	--second-color: #ccc;
-	--main-color: #4b2a1d;
+	--main-color: #eb0b0b;
 	--big-font: 5rem;
 	--h2-font: 3rem;
 	--p-font: 1.1rem;
+	background-color: #090707;
 }
 body{
 	background: var(--bg-color);
 	color: var(--text-color);
+	background-color: #0a0a0a;
 }
 header{
 	position: fixed;
@@ -75,8 +77,8 @@ section{
 .home{
 	position: relative;
 	height: 100vh;
-	width: 100%;
-	background-image: url(backimage.jpg);
+	width:  100%;
+	background-image: url(figma.jpg);
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
@@ -403,7 +405,7 @@ form textarea{
 	padding: 14px;
 	background: var(--bg-color);
 	color: var(--text-color);
-	border: none;
+	border:  1px solid darkgray;
 	outline: none;
 	font-size: 15px;
 	border-radius: 8px;
@@ -412,6 +414,7 @@ form textarea{
 .contact-form textarea{
 	resize: none;
 	height: 240px;
+	border: 1px solid darkgray;
 }
 .contact-form .submit{
 	display: inline-block;
