@@ -191,18 +191,22 @@
 			</div>
 		</div>
 
-		<div class="contact-form">
-			<form action="">
-				<input type="name" placeholder="Your Name" >
-				<input type="text" placeholder="Your Email Address" >
-				<input type="" placeholder="Your Mobile Number" >
-				<textarea name="" id="" cols="25s" rows="10" placeholder="How Can I Help You"></textarea>
+		 <div class="contact-form"> 
+			<form id="form" class="form">
+				<input type="name" placeholder="Your Name" id="name" >
+				<p class="err" id="err1"></p>
+				<input type="text" placeholder="Your Email Address" id="email" >
+				<p class="err" id="err2"></p>
+				<input type="" placeholder="Your Mobile Number" id="number">
+				<p class="err" id="err3"></p>
+				<textarea name="" id="Message" cols="25s" rows="10" placeholder="How Can I Help You"></textarea>
+				<p class="err" id="err4"></p>
 				<input type="submit" value="Send Message" class="submit" >
 			</form>
 		</div>
 	</section>
 
-	<!----end section design--->
+	<!----end  design--->
 	<section class="end">
 		<div class="last-text">
 			<p>Copyright © 2022 by sebakunda Eric All Rights Reserved.</p>
@@ -214,7 +218,6 @@
 	</section>
 
 	<!---custom js link--->
-	<script type="text/javascript" src="js/script.js"></script>
-
+	<script src="index.js"></script>
 </body>
 </html>

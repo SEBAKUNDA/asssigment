@@ -428,6 +428,10 @@ form textarea{
 	transform: scale(1.1);
 	cursor: pointer;
 }
+.err{
+	color: #ff004f;
+	font-size: 12px;
+}
 
 .end{
 	padding: 20px 15%;
