@@ -1,3 +1,20 @@
+const header = document.querySelector("header");
+window.addEventListener ("scroll", function() {
+	header.classList.toggle ("sticky", window.scrollY > 100);
+});
+
+let menu = document.querySelector('#menu-icon');
+let navlist = document.querySelector('.nav-list');
+
+menu.onclick = () => {
+	menu.classList.toggle('bx-x');
+	navlist.classList.toggle('open');
+};
+
+window.onscroll = () => {
+	menu.classList.remove('bx-x');
+	navlist.classList.remove('open');
+};
 let name = document.getElementById("name");
 let email = document.getElementById("email");
 let number = document.getElementById("number");
@@ -34,4 +51,10 @@ function myfunction(){
          document.getElementById("err4").innerHTML ="";
     }
 }
-
+const activePage = window.location.pathname;
+const navlink = document.querySelectorAll('nav a').
+forEach link ==> {
+    if link.href.includes('$'{activePage}){
+       link.classList.add('active'); 
+    }
+}

@@ -48,6 +48,7 @@ span{
 }
 .navlist{
 	display: flex;
+	
 }
 .navlist a{
 	color: var(--second-color);
@@ -508,6 +509,9 @@ form textarea{
 @media (max-width: 840px){
 	#menu-icon{
 		display: block;
+	}
+	.logo{
+		font-size: 24px;
 	}
 	.navlist{
 		position: absolute;
