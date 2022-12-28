@@ -51,10 +51,12 @@ function myfunction(){
          document.getElementById("err4").innerHTML ="";
     }
 }
-const activePage = window.location.pathname;
-const navlink = document.querySelectorAll('nav a').
-forEach link ==> {
-    if link.href.includes('$'{activePage}){
-       link.classList.add('active'); 
-    }
-}
+const nav = document.querySelector('.navlist').querySelectorAll("a");
+console.log(nav);
+nav.forEach(function(element){
+    element.addEventListener("click", function(){
+        nav.forEach(a => a.classList.remove("active"));
+        this.classList.add("active");
+    })
+    
+});
