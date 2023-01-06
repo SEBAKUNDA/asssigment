@@ -1,38 +1,51 @@
 <!DOCTYPE html>
-<h
+<html lang="en">
+
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Eric</title>
-	<!---custom css link---->
- <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-	 
-  <!-- href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"> -->
+  <title>ERIC</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+   
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+
+  <link href="style.css" rel="stylesheet">
+
 
 </head>
+
 <body>
 
-	<!----header design--->
-	<header>
-		 <a href="#" class="logo">ma<span>x</span>.</a>
+ <!-- header -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
 
-		<ul class="navlist">
-			<li><a href="#home" class="active">Home</a></li>
-			<li><a href="#about">About Me</a></li>
-			<li><a href="#services">Services</a></li>
-			<li><a href="#portfolio">Portfolio</a></li>
-			<li><a href="#contact">Contact Me</a></li>
-		</ul>
-
-		<div class="bx bx-menu" id="menu-icon">
+      <h1 class="logo"><a href="index.html">ma<span>x</span></a>.</h1>
+     
+   <!-- navbar -->
+      <nav id="navbar" class="navbar">
+        <ul>
+			<li><a class="nav-link " href="#home" class="active">Home</a></li>
+			<li><a class="nav-link " href="#about">About Me</a></li>
+			<li><a class="nav-link " href="#services">Services</a></li>
+			<li><a class="nav-link " href="#portfolio">Portfolio</a></li>
+			<li><a class="nav-link " href="#blog">Blog</a></li>
 			
-		</div>
-	</header>
+			<li><a class="nav-link " href="#contact">Contact Me</a></li>
+        </ul>
+
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+       
+    </div>
+  </header><!-- End Header -->
 
 	<!----home section design--->
 	<section class="home" id="home">
@@ -110,62 +123,85 @@
 		<div class="main-text">
 			<p>Portfolio</p>
 			<h2><span>Latest</span> Project</h2>
+		
+
+			<div class="services-content">
+				<div class="row">
+					<img src="hh.png">
+					<div class="layer">
+						<h5>Visual Design</h5>
+						<p>Check out 10 Best Design's updates for the top web design & development companies.</p>
+						<button class="btn btn-info"><a href="#">VIEW DETAILS</a></button>
+					</div>
+				</div>
+	
+				<div class="row">
+					<img src="figma.jpg">
+					<div class="layer">
+						<h5>Visual Design</h5>
+						<p>Check out 10 Best Design's updates for the top web design & development companies.</p>
+						<button class="btn btn-info"><a href="#">VIEW DETAILS</a></button>
+
+					</div>
+				</div>
+	
+				<div class="row">
+					<img src="figma.jpg">
+					<div class="layer">
+						<h5>Visual Design</h5><br><br>
+						<p>website for drivers</p>
+						<button class="btn btn-info"><a href="#">VIEW DETAILS</a></button>
+
+					</div>
+				</div>
+	
+				
+				</div>
+	
+	
+			</div>
+	</section>
+	 <!-- Blog section -->
+	
+	<section class="portfolio" id="blog">
+		<div class="main-text">
+			<p>Blogs</p>
+			<h2><span>Latest</span> News</h2>
 		</div>
 
-		<div class="portfolio-content">
+		<div class="services-content">
 			<div class="row">
-				<!-- <img src="img/portfolio1.jpg"> -->
+				<img src="blogs1.JPEG">
 				<div class="layer">
 					<h5>Visual Design</h5>
 					<p>Check out 10 Best Design's updates for the top web design & development companies.</p>
-					<a href="#"><i class='bx bx-link-external' ></i></a>
+					<button class="btn btn-info"><a href="#">VIEW DETAILS</a></button>
 				</div>
 			</div>
 
 			<div class="row">
-				<!-- <img src="img/portfolio2.jpg"> -->
+				<img src="blogs.JPEG">
 				<div class="layer">
 					<h5>Visual Design</h5>
 					<p>Check out 10 Best Design's updates for the top web design & development companies.</p>
-					<a href="#"><i class='bx bx-link-external' ></i></a>
+					<button class="btn btn-info"><a href="#">VIEW DETAILS</a></button>
+
 				</div>
 			</div>
 
 			<div class="row">
-				<!-- <img src="img/portfolio3.jpg"> -->
+				<img src="blogs1.jpeg">
 				<div class="layer">
-					<h5>Visual Design</h5>
+					<h5>Visual Design</h5><br><br>
 					<p>website for drivers</p>
-					<a href="#"><i class='bx bx-link-external' ></i></a>
+					<button class="btn btn-info"><a href="#">VIEW DETAILS</a></button>
+
 				</div>
 			</div>
 
-			<div class="row">
-				<!-- <img src="img/portfolio4.jpg"> -->
-				<div class="layer">
-					<h5>Visual Design</h5>
-					<p>adress book for my campany</p>
-					<a href="#"><i class='bx bx-link-external' ></i></a>
-				</div>
+			
 			</div>
 
-			<div class="row">
-				<!-- <img src="img/portfolio5.jpg"> -->
-				<div class="layer">
-					<h5>Visual Design</h5>
-					<p>portfolio</p>
-					<a href="#"><i class='bx bx-link-external' ></i></a>
-				</div>
-			</div>
-
-			<div class="row">
-				<!-- <img src="img/portfolio6.jpg"> -->
-				<div class="layer">
-					<h5>Visual Design</h5>
-					<p>software for my campany.</p>
-					<a href="#"><i class='bx bx-link-external' ></i></a>
-				</div>
-			</div>
 
 		</div>
 	</section>
@@ -183,10 +219,10 @@
 			</div>
 
 			<!-- <div class="contact-icons">
-			   <!-- <a href="#"><i class='bx bxl-facebook' ></i></a> -->
+			  <a href="#"><i class='bx bxl-facebook' ></i></a> -->
 				<a href="#"><i class='bx bxl-twitter' ></i></a>
 				<a href="#"><i class='bx bxl-instagram-alt' ></i></a>
-				<a href="#"><i class='bx bxl-youtube' ></i></a> -->
+				<a href="#"><i class='bx bxl-youtube' ></i></a>
 			</div>
 		</div>
 
@@ -217,6 +253,15 @@
 	</section>
 
 	<!---custom js link--->
+
+	
+	<script src="assets/vendor/purecounter/purecounter.js"></script>
+	<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+	<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+	<script src="assets/vendor/typed.js/typed.min.js"></script>
+	<script src="assets/vendor/php-email-form/validate.js"></script>
+  
 	<script src="index.js"></script>
 </body>
 </html>
